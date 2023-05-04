@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="utf-8">
+	<title>
+		Лабораторна робота №3. Варіант №6
+	</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</html>
+
+<body>
+	<table class="main_table">
+		<tr>
+			<td colspan="4">
+				<div class="show_stats internal_block"></div>
+			</td>
+		</tr>
+		<tr>
+			<td class="central_box">
+				<div class="question internal_block"></div>
+			</td>
+			<td class="central_box">
+				<input type="text" class="answer internal_block">
+			</td>
+			<td class="central_box">
+				<button onclick="CheckBtn()" class="check internal_block">
+					Перевірити
+				</button>
+			</td>
+			<td class="central_box">
+				<button onclick="NextBtn(); StatsCalculation();" class="next_question internal_block">
+					Генерувати питання
+				</button>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="4">
+				<div class="show_result internal_block"></div>
+			</td>
+		</tr>
+	</table>
+	<script type="text/javascript" src="script.js"></script>
+</body>
