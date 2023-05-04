@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+
+div{
+	border:1px solid black;
+}
+
+.header, .footer{
+	height: 10vh;
+	width: 100%;
+	background-color: orange;
+}
+
+section{
+	height: 80vh;
+}
+
+.section_box{
+	height:100%;
+	width: 22%;
+	float: left;
+}
+
+.third, .fourth, .fifth{
+	margin-left: 4%;
+}
+
+.second{
+	background-color: blue;
+}
+
+.third, .fifth{
+	background-color: red;
+}
+
+.internal_box{
+	height: 35px;
+	width: 30%;
+	background-color: white;
+	margin: 20px 200px 0px 40px;
+}
+
+.box_with_number{
+	height: 50px;
+	width: 50px;
+	font-weight: bold;
+	font-size: 60px;
+	border-width: 0px;
+}
+
+.section_box_number{
+	margin: 45% 0% 0% 43%;
+}
+
+.footer_number{
+	margin-left: 9%;
+}
+
+.header_number{
+	float: right;
+	margin-right: 18%;
+}
